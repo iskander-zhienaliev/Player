@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html lang="ru" class="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Музончег</title>
+    <link rel="stylesheet" href="css\music_styles.css">
+  </head>
+  <body>
+<a href="index.html"><img src="https://img-fotki.yandex.ru/get/6113/11080245.8/0_70ad1_8cf7382f_orig"></a>
+<div id="container">
+	<div id="audio-image">
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 <input id="volume" type="range" min="0" max="10" value="5" />
+		 <br>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <ul id="playlist" class="hidden">
+			<li song="rummstein - sonne.mp3" artist="Rummstein">Sonne</li>
+			<li song="rummstein - du hast.mp3" artist="Rummstein">Du Hast</li>
+			<li song="metallica-enter-sandman-polnaya-versiya.mp3"  artist="Metallica">Enter Sandman</li>
+			<li song="metallica-nothin-else-matters.mp3" artist="Metallica">Nothing else matters</li>
+			<li song="the-cranberries-zombie-original.mp3"  artist="The Cranberries">Zombie</li>
+			<li song="evanescence-bring-me-to-life-evanescence.mp3" artist="Evanescence">Bring me to life</li>
+			<li song="evanescence-exodus.mp3"  artist="Evanescence">Exodus</li>
+			<li song="bi-2-i-yuliya-chicherina--moy-rok-n-roll.mp3" artist="Би-2">Мой рок-н-ролл</li>
+			<li song="bi-2-varvara-ost-brat-2.mp3"  artist="Би-2">Варвара</li>
+			<li song="lumen-goret.mp3"  artist="Lumen">Гореть</li>
+		</ul>
+	</div>
+
+</div>
+<script src="js\jquery-3.3.1.min.js"></script>
+<script src="js\music_js.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html lang="ru" class="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Музончег</title>
+    <link rel="stylesheet" href="css\music_styles.css">
+  </head>
+  <body>
+<a href="index.html"><img src="https://img-fotki.yandex.ru/get/6113/11080245.8/0_70ad1_8cf7382f_orig"></a>
+<div id="container">
+	<div id="audio-image">
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 <input id="volume" type="range" min="0" max="10" value="5" />
+		 <br>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <ul id="playlist" class="hidden">
+			<li song="sergey-rahmaninov-ital-yanskaya-pol-ka.mp3" artist="Рахманинов С.В.">Итальянская полька</li>
+			<li song="sergey-rahmaninov-siren.mp3" artist="Рахманинов С.В.">Сирень</li>
+			<li song="sergey-rahmaninov-svetlyy-prazdnik.mp3"  artist="Рахманинов С.В.">Светлый праздник</li>
+			<li song="vil-gel-m-rihard-vagner-medlennyy-val-s.mp3" artist="Вагнер Р.">Медленный вальс</li>
+			<li song="vil-gel-m-rihard-vagner-polet-val-kirii.mp3"  artist="Вагнер Р.">Полет Валькирии</li>
+			<li song="vil-gel-m-rihard-vagner-son-v-letnyuyu-noch.mp3" artist="Вагнер Р.">Сон в летнюю ночь</li>
+			<li song="iogan-sebast-yan-bah-lunnaya-sonata.mp3"  artist="Бах И.">Лунная соната</li>
+			<li song="iogan-sebast-yan-bah-siciliana.mp3" artist="Бах И.">Сицилиана</li>
+			<li song="iogann-sebast-yan-bah-simfoniya-13.mp3"  artist="Бах И.">Симфония №13</li>
+			<li song="schelkunchik-muzyka-k-baletu-schelkunchik.mp3"  artist="Музыка из балета">Щелкунчик</li>
+		</ul>
+	</div>
+
+</div>
+<script src="js\jquery-3.3.1.min.js"></script>
+<script src="js\music_js.js"></script>
+</body>
+</html>
